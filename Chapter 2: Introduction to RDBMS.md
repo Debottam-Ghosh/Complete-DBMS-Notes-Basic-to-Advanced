@@ -14,7 +14,7 @@ A Relational Database stores data in tables (relations) consisting of rows (tupl
 
 
 ## Example: 
-### `Students`
+### &nbsp;&nbsp;&nbsp;`Students`
 | StudentID | Name    | Age | Course  |
 | --------- | ------- | --- | ------- |
 | 101       | Alice   | 20  | Math    |
