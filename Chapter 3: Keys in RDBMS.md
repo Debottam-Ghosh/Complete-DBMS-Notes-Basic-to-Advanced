@@ -12,6 +12,7 @@ There are **8 types of keys** in RDBMS.
 - It is the smallest possible set that can uniquely identifies each record in a table.
 - Cannot contain NULL values.
 - Must be unique i.e., each table can have only one primary key.
+- The primary key is denoted by an underline to the name of the attribute.
 
 #### Example: 
 `RollNo` is the primary key — every student has a unique roll number.
