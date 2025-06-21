@@ -10,6 +10,13 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 | **Relationship** | Association between entities                        | Enrolls (Student–Course) |
 | **Primary Key**  | Uniquely identifies an entity                       | Roll Number, Course Code |
 
+## Types of Entities
+- **Strong Entity:** Has a primary key and exists independently.
+<br>Example: Student
+
+- **Weak Entity:** Doesn’t have a primary key and depends on another entity.
+<br>Example: Dependents of Employees
+
 ## Types of Attributes
 | Attribute Type    | Description                          | Example                            |
 | ----------------- | ------------------------------------ | ---------------------------------- |
@@ -19,19 +26,29 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 | **Multivalued**   | Can have multiple values             | Phone Numbers                      |
 | **Key Attribute** | Uniquely identifies entity instances | Student ID                         |
 
-## Types of Relationships/ Cardinality of Relationships
+## Symbols Used in ER Model
+![image](https://github.com/user-attachments/assets/255d6a89-2fe1-4105-9272-ac76b4fe6381)
+
+### Example:
+![image](https://github.com/user-attachments/assets/743e78a3-0468-4b62-8de9-4b99dbc68348)
+
+
+## Cardinality of Relationships
 | Type                    | Description                           | Example            |
 | ----------------------- | ------------------------------------- | ------------------ |
 | **One-to-One (1:1)**    | One entity relates to one of another  | Person – Passport  |
 | **One-to-Many (1\:N)**  | One entity relates to many of another | Teacher – Students |
 | **Many-to-Many (M\:N)** | Many entities relate to many others   | Student – Courses  |
 
-## Types of Entities
-- **Strong Entity:** Has a primary key and exists independently.
-<br>Example: Student
+### Examples:
+<br>
 
-- **Weak Entity:** Doesn’t have a primary key and depends on another entity.
-<br>Example: Dependents of Employees
+##### One-to-One
+![image](https://github.com/user-attachments/assets/39c0e453-e5d9-48ee-9385-8deaf3dc0c3d)
 
-![image](https://github.com/user-attachments/assets/255d6a89-2fe1-4105-9272-ac76b4fe6381)
+##### One-to-Many
+![image](https://github.com/user-attachments/assets/bebfda2c-ddc5-4404-94f6-999b30a6f65a)
+
+##### Many-to-One
+![image](https://github.com/user-attachments/assets/2c13d342-c93a-43dd-b894-a1ff4b588d7c)
 
