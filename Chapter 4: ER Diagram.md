@@ -42,7 +42,7 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 
 ### Examples:
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One-to-One
+##### One-to-One________________________________________________________________________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/39c0e453-e5d9-48ee-9385-8deaf3dc0c3d)
 
 ##### One-to-Many
