@@ -19,3 +19,8 @@ SQL is used with popular databases like MySQL, PostgreSQL, Oracle, SQL Server, a
 
 
 ![image](https://github.com/user-attachments/assets/a0705f00-c7f9-405d-9535-f45523c552f4)
+
+
+### Good Practice
+- Always use `;` at the end of your SQL statements. Not Mandatory but advisable.
+- Write the commands in upper case. Again not mandatory. SQL is not case sensitive. Not using upper case will not throw an error but not a good practice.
