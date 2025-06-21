@@ -33,5 +33,5 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 - **Weak Entity:** Doesn’t have a primary key and depends on another entity.
 <br>Example: Dependents of Employees
 
-
+![image](https://github.com/user-attachments/assets/255d6a89-2fe1-4105-9272-ac76b4fe6381)
 
