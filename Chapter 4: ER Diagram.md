@@ -28,10 +28,10 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 
 ## Types of Entities
 - **Strong Entity:** Has a primary key and exists independently.
-Example: Student
+<br>Example: Student
 
 - **Weak Entity:** Doesn’t have a primary key and depends on another entity.
-Example: Dependents of Employees
+<br>Example: Dependents of Employees
 
 
 
