@@ -41,9 +41,8 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 | **Many-to-Many (M\:N)** | Many entities relate to many others   | Student – Courses  |
 
 ### Examples:
-<br>
 
-##### One-to-One
+##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One-to-One
 ![image](https://github.com/user-attachments/assets/39c0e453-e5d9-48ee-9385-8deaf3dc0c3d)
 
 ##### One-to-Many
