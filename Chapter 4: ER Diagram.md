@@ -29,7 +29,7 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 ## Symbols Used in ER Model
 ![image](https://github.com/user-attachments/assets/255d6a89-2fe1-4105-9272-ac76b4fe6381)
 
-### Example:
+### ER Diagram:
 ![image](https://github.com/user-attachments/assets/743e78a3-0468-4b62-8de9-4b99dbc68348)
 
 
@@ -48,4 +48,16 @@ An ER Diagram (Entity-Relationship Diagram) is a visual representation of data t
 
 ### Many-to-One
 ![image](https://github.com/user-attachments/assets/2c13d342-c93a-43dd-b894-a1ff4b588d7c)
+
+### Many-to-Many
+![image](https://github.com/user-attachments/assets/d648287f-e304-4b15-ad4e-d376b583a59c)
+
+## Participation Constraints
+| Type        | Description                                       | Example                               |
+| ----------- | ------------------------------------------------- | ------------------------------------- |
+| **Total**   | Every entity must participate in the relationship | Every student must enroll in a course |
+| **Partial** | Some entities may not participate                 | some courses are not enrolled by any of the students         |
+
+### ER Diagram
+![image](https://github.com/user-attachments/assets/901cd0a4-6a19-43e7-984f-658cad91dc05)
 
