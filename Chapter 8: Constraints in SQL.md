@@ -11,6 +11,7 @@ Constraints are rules applied to table columns in SQL to ensure data integrity, 
 | `FOREIGN KEY` | Enforces referential integrity by linking to another table’s key |
 | `CHECK`       | Ensures values meet a specific condition                         |
 | `DEFAULT`     | Sets a default value when none is provided                       |
+|`AUTO_INCREMENT`| automatically generate a unique number for a column             |
 
 <br>
 
@@ -83,6 +84,21 @@ CREATE TABLE Students (
 ```
 
 <br>
+
+### 7. AUTO_INCREMENT
+```bash
+CREATE TABLE Students (
+    ID INT AUTO_INCREMENT,
+    Name VARCHAR(50),
+    PRIMARY KEY (ID)
+);
+```
+Now when you insert a new row with Name 'Alice':
+```INSERT INTO Students (Name) VALUES ('Alice');```
+The ID will automatically be set to 1 (then 2, 3, ... on future inserts).
+
+<br>
+
 
 ### Adding Constraints After Table Creation
 You can also use ALTER TABLE to add constraints:
