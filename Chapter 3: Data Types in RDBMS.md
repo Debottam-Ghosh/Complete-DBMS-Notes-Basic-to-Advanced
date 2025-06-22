@@ -1,5 +1,5 @@
 In RDBMS, data types define the kind of data a column can hold — such as numbers, text, dates, etc. They ensure data integrity, optimization, and accurate storage.
-
+<br>
 ## Numeric Data Types
 | Data Type      | Description                            | Example Values        |
 | -------------- | -------------------------------------- | --------------------- |
@@ -11,7 +11,7 @@ In RDBMS, data types define the kind of data a column can hold — such as numbe
 | `FLOAT`        | Approximate floating-point numbers     | 3.14159               |
 | `REAL`         | Less precision than FLOAT              | 1.23                  |
 | `DOUBLE`       | More precision                         | 3.1415926535          |
-
+<br>
 ## Character/String Data Types
 | Data Type       | Description                  | Example         |
 | --------------- | ---------------------------- | --------------- |
@@ -27,12 +27,12 @@ In RDBMS, data types define the kind of data a column can hold — such as numbe
 | `DATETIME`  | Stores both date & time | `'2025-06-21 13:45:00'` |
 | `TIMESTAMP` | Stores timestamp        | `'2025-06-21 13:45:00'` |
 | `YEAR`      | Stores year only        | `2025`                  |
-
+<br>
 ## Boolean Type
 | Data Type | Description   | Example           |
 | --------- | ------------- | ----------------- |
 | `BOOLEAN` | True or False | TRUE, FALSE, 1, 0 |
-
+<br>
 ## Binary Types
 | Data Type      | Description                 | Use Case               |
 | -------------- | --------------------------- | ---------------------- |
