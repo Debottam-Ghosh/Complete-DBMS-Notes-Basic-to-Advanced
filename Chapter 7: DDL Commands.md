@@ -3,7 +3,7 @@ DDL (Data Definition Language) is a subset of SQL used to define and manage data
 
 ---
 
-## 1. CREATE
+## 1. `CREATE`
 Used to create a new table, database, view, or other object.
 
 ### 1.A) Create a Database
@@ -35,7 +35,7 @@ CREATE TABLE Students (
 
 ---
 
-##  2. ALTER
+##  2. `ALTER`
 Used to modify an existing database object like a table.
 There are few alter commands in SQL:
 
@@ -63,7 +63,7 @@ RENAME COLUMN old_name TO new_name;
 
 ---
 
-## 3. DROP
+## 3. `DROP`
 Used to delete a table, database permanently.
 #### Dropping a Table
 ```bash
@@ -79,7 +79,7 @@ DROP TABLE table_name;
 
 ---
 
-## 4. TRUNCATE
+## 4. `TRUNCATE`
 Used to delete all rows from a table without deleting its structure.
 ```bash
 TRUNCATE TABLE table_name;
@@ -87,7 +87,7 @@ TRUNCATE TABLE table_name;
 
 ---
 
-## 5. RENAME
+## 5. `RENAME`
 Used to rename a table.
 ```bash
 RENAME TABLE old_name TO new_name;
