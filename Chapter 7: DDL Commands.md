@@ -46,7 +46,7 @@ ALTER TABLE table_name
 ### 2.A) ADD - To add a new column to the table
 ```bash
 ALTER TABLE table_name
-ADD column_name datatype;
+ADD COLUMN column_name datatype;
 ```
 
 ### 2.B) MODIFY - To change the data type of an existing column
