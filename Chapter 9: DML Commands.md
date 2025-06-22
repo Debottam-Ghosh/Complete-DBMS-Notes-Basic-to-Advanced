@@ -29,7 +29,7 @@ INSERT INTO table_name VALUES (value1, value2, ..., value_n);
 
 - You can insert one row at a time or multiple rows using a single statement.
 ```bash
-INSERT INTO table_name VALUES (value11, value12, ..., value_1n), (value21, value22, ..., value_2n), (value31, value32, ..., value_3n);
+INSERT INTO table_name VALUES (value11,...,value_1n), (value21,...,value_2n), (value31,...,value_3n);
 ```
 
 - All constraints like NOT NULL, UNIQUE, FOREIGN KEY, etc., will be enforced during insert.
