@@ -2,7 +2,7 @@
 
 <br>
 
-## DML vs. DDL
+## `DML vs. DDL`
 | Feature            | DDL (Data Definition Language) | DML (Data Manipulation Language)       |
 | ------------------ | ------------------------------ | -------------------------------------- |
 | Affects structure? | ✅ Yes                          | ❌ No                                   |
@@ -11,7 +11,7 @@
 
 <br>
 
-## 1. INSERT
+## 1. `INSERT`
 This command in SQL is used to add new rows (records) into a table in a database.
 
 <br>
@@ -36,7 +36,7 @@ INSERT INTO table_name VALUES (value11,...,value_1n), (value21,...,value_2n), (v
 
 ---
 
-## 2. SELECT
+## 2. `SELECT`
 The SELECT command is used to retrieve data from one or more tables in a database.
 
 ### Syntax:
