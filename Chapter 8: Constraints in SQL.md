@@ -12,6 +12,8 @@ Constraints are rules applied to table columns in SQL to ensure data integrity, 
 | `CHECK`       | Ensures values meet a specific condition                         |
 | `DEFAULT`     | Sets a default value when none is provided                       |
 
+<br>
+
 ### 1. NOT NULL
 ```bash
 CREATE TABLE Students (
