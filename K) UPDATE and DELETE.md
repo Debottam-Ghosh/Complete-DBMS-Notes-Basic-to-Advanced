@@ -68,3 +68,14 @@ WHERE last_login < '2024-06-01';
 DELETE FROM products
 WHERE status = 'Discontinued';
 ```
+##
+
+## Comparison Table: UPDATE vs DELETE
+| Feature       | `UPDATE`                              | `DELETE`                     |
+| ------------- | ------------------------------------- | ---------------------------- |
+| Purpose       | Modify existing records               | Remove existing records      |
+| Syntax        | `UPDATE table SET col=value WHERE...` | `DELETE FROM table WHERE...` |
+| WHERE clause  | Optional, but recommended             | Optional, but recommended    |
+| Without WHERE | Updates all rows                      | Deletes all rows             |
+| Affects       | Specific columns                      | Entire row(s)                |
+
