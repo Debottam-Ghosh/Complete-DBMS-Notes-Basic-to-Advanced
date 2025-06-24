@@ -24,6 +24,7 @@ These return a single value based on input. Categories include:
 <b>
 
 ### b) Date/Time Functions
+
 | Function                     | Description             | Example                                |
 | ---------------------------- | ----------------------- | -------------------------------------- |
 | `NOW()`                      | Current date and time   | `SELECT NOW();`                        |
@@ -33,6 +34,7 @@ These return a single value based on input. Categories include:
 <br>
 
 ### c) Numeric Functions
+
 | Function  | Description         | Example                        |
 | --------- | ------------------- | ------------------------------ |
 | `ROUND()` | Rounds a number     | `ROUND(123.456, 2)` → `123.46` |
@@ -44,6 +46,7 @@ These return a single value based on input. Categories include:
 #
 
 ## Aggregate Functions
+
 Often used with `GROUP BY` to summarize data.
 <br>
 
