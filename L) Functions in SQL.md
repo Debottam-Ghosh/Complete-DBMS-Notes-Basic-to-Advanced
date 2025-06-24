@@ -8,6 +8,7 @@ SQL functions are built-in methods used to perform operations on data such as ca
 
 ## Types of SQL Functions
 **1. Scalar Functions** – operate on a single value and return a single value
+<br>
 **2. Aggregate Functions** – operate on a group of rows
 #
 ## Scalar Functions
