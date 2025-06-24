@@ -105,41 +105,41 @@ WHERE username LIKE '____';
 
 ## Advanced Examples Using Comparison Operators
 ```bash
-# 1. Find IT employees aged 30 or above, whose email ends with '.com' and have a non-null phone number 
+#1. Find IT employees aged 30 or above, whose email ends with '.com' and have a non-null phone number 
 SELECT * FROM employees
 WHERE age >= 30
   AND department = 'IT'
   AND email LIKE '%.com'
   AND phone IS NOT NULL;
 
--- 2. Get all products priced outside the 100 to 200 range and not made in 'China' or 'Bangladesh'
+#2. Get all products priced outside the 100 to 200 range and not made in 'China' or 'Bangladesh'
 SELECT * FROM products
 WHERE price NOT BETWEEN 100 AND 200
   AND country_of_origin NOT IN ('China', 'Bangladesh');
 
--- 3. Retrieve users from Kolkata or Mumbai whose name starts with 'S' and who are not students
+#3. Retrieve users from Kolkata or Mumbai whose name starts with 'S' and who are not students
 SELECT * FROM users
 WHERE city IN ('Kolkata', 'Mumbai')
   AND name LIKE 'S%'
   AND profession != 'Student';
 
--- 4. List customers whose age is between 18 and 60, email does not end with '.edu', and address is provided
+#4. List customers whose age is between 18 and 60, email does not end with '.edu', and address is provided
 SELECT * FROM customers
 WHERE age BETWEEN 18 AND 60
   AND email NOT LIKE '%.edu'
   AND address IS NOT NULL;
 
--- 5. Fetch employees who either work in HR or Sales, earn more than ₹50,000, and are not located in Delhi
+#5. Fetch employees who either work in HR or Sales, earn more than ₹50,000, and are not located in Delhi
 SELECT * FROM employees
 WHERE department IN ('HR', 'Sales')
   AND salary > 50000
   AND city <> 'Delhi';
 
--- 6. Show records where employee code has exactly 6 characters and starts with 'A'
+#6. Show records where employee code has exactly 6 characters and starts with 'A'
 SELECT * FROM employees
 WHERE emp_code LIKE 'A_____'  -- A followed by 5 characters
 
--- 7. Find products with null descriptions and cost less than or equal to 100
+#7. Find products with null descriptions and cost less than or equal to 100
 SELECT * FROM products
 WHERE description IS NULL
   AND price <= 100;
