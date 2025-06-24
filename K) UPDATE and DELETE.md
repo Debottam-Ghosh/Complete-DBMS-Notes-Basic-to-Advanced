@@ -37,5 +37,34 @@ SET city = 'Mumbai'
 WHERE user_id = 101;
 ```
 
+---
 
+## DELETE Statement in SQL
+The `DELETE` statement is used to remove rows from a table.
+<br>
 
+### Syntax
+```bash
+DELETE FROM table_name
+WHERE condition;
+```
+<br>
+
+### Important
+- If you omit the WHERE clause, all rows in the table will be deleted.
+- Unlike TRUNCATE, DELETE can be used with conditions and can be rolled back (if transactions are enabled).
+<br>
+
+### Example
+**Delete users who have not logged in for over 1 year**
+```bash
+DELETE FROM users
+WHERE last_login < '2024-06-01';
+```
+<br>
+
+**Remove products that are discontinued**
+```bash
+DELETE FROM products
+WHERE status = 'Discontinued';
+```
