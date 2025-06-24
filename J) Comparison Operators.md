@@ -6,7 +6,7 @@
 
 Comparison operators are used in SQL to compare two expressions. These are most commonly used in the `WHERE` clause to filter records based on specific conditions.
 
-## `List of Comparison Operators`
+## List of Comparison Operators
 | Operator      | Description                    | Example                               |
 | ------------- | ------------------------------ | ------------------------------------- |
 | `=`           | Equal to                       | `WHERE age = 25`                      |
