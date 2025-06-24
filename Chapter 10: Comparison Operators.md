@@ -105,7 +105,7 @@ WHERE username LIKE '____';
 
 ## Advanced Examples Using Comparison Operators
 ```bash
-/* 1. Find IT employees aged 30 or above, whose email ends with '.com' and have a non-null phone number */
+# 1. Find IT employees aged 30 or above, whose email ends with '.com' and have a non-null phone number 
 SELECT * FROM employees
 WHERE age >= 30
   AND department = 'IT'
