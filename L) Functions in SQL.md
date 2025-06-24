@@ -21,7 +21,7 @@ These return a single value based on input. Categories include:
 | `SUBSTRING()`        | Extracts part of a string     | `SUBSTRING(name, 1, 3)` → `'Joh'`    |
 | `CONCAT()`           | Joins two or more strings     | `CONCAT(first_name, ' ', last_name)` |
 | `TRIM()`             | Removes spaces from both ends | `TRIM('  Hello ')` → `'Hello'`       |
-<b>
+<br>
 
 ### b) Date/Time Functions
 
