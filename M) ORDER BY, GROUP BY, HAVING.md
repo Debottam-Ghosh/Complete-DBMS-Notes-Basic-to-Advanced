@@ -23,21 +23,21 @@ Where,
 <br>
 
 ## Examples
-**Sort employees by name in ascending order**
+#### Sort employees by name in ascending order
 ```bash
 SELECT * FROM employees
 ORDER BY name ASC;
 ```
 <br>
 
-**Sort products by price in descending order**
+#### Sort products by price in descending order
 ```bash
 SELECT * FROM products
 ORDER BY price DESC;
 ```
 <br>
 
-**Sort students by grade (desc) and then by name (asc)**
+#### Sort students by grade (desc) and then by name (asc)
 ```bash
 SELECT * FROM students
 ORDER BY grade DESC, name ASC;
@@ -56,7 +56,7 @@ ORDER BY grade DESC, name ASC;
 #
 
 ### Sorting with Expressions
-##### Sort employees by yearly salary (monthly_salary * 12)
+#### Sort employees by yearly salary (monthly_salary * 12)
 ```bash
 SELECT name, monthly_salary
 FROM employees
