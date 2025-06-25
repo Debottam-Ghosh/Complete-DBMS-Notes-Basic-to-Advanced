@@ -1,3 +1,9 @@
+#
+# Chapter 8: Constraints in SQL
+<br>
+<br>
+
+
 - Constraints are rules applied to table columns in SQL to ensure data integrity, validity, and consistency in a relational database.
 - Constraints are used in DDL (i.e., at the time of defining table)
 
