@@ -1,3 +1,9 @@
+#
+# Chapter 2: Introduction to RDBMS
+<br>
+<br>
+
+
 ## What is a Relational Database?
 A Relational Database stores data in tables (relations) consisting of rows (tuples) and columns (attributes).
 
