@@ -1,5 +1,5 @@
 #
-# Chapter 3: Data Types in RDBMS.md
+# Chapter 3: Data Types in RDBMS
 <br>
 <br>
 
