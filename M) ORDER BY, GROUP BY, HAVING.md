@@ -14,8 +14,6 @@ SELECT column1, column2, ...
 FROM table_name
 ORDER BY column1 [ASC | DESC], column2 [ASC | DESC];
 ```
-<br>
-
 Where,
 - ASC = Ascending order (default)
 - DESC = Descending order
@@ -28,15 +26,11 @@ Where,
 SELECT * FROM employees
 ORDER BY name ASC;
 ```
-<br>
-
 #### Sort products by price in descending order
 ```bash
 SELECT * FROM products
 ORDER BY price DESC;
 ```
-<br>
-
 #### Sort students by grade (desc) and then by name (asc)
 ```bash
 SELECT * FROM students
