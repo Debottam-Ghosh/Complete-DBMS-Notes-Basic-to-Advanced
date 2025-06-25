@@ -3,9 +3,9 @@
 <br>
 <br>
 
-A **subquery** (also called an inner query or nested query) is a query nested inside another query.<br>
-It is used to filter, calculate, or retrieve values used by the main query. <br>
-It also allows breaking complex logic into smaller, manageable queries.
+- A **subquery** (also called an inner query or nested query) is a query nested inside another query.<br>
+- It is used to filter, calculate, or retrieve values used by the main query. <br>
+- It also allows breaking complex logic into smaller, manageable queries.
 
 <br>
 
