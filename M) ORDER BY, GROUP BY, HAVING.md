@@ -56,7 +56,7 @@ ORDER BY grade DESC, name ASC;
 #
 
 ### Sorting with Expressions
-**Sort employees by yearly salary (monthly_salary * 12)**
+##### Sort employees by yearly salary (monthly_salary * 12)
 ```bash
 SELECT name, monthly_salary
 FROM employees
