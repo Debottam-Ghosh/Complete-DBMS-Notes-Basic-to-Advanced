@@ -1,3 +1,8 @@
+#
+# Chapter 3: Data Types in RDBMS.md
+<br>
+<br>
+
 In RDBMS, data types define the kind of data a column can hold — such as numbers, text, dates, etc. They ensure data integrity, optimization, and accurate storage.
 
 <br>
