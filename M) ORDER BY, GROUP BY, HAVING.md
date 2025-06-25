@@ -66,7 +66,7 @@ ORDER BY monthly_salary * 12 DESC;
 
 ## ORDER BY with `LIMIT`
 Use ORDER BY along with LIMIT (in MySQL/PostgreSQL) to get top N records:
-**Top 5 highest-paid employees**
+#### Top 5 highest-paid employees
 ```bash
 SELECT name, salary
 FROM employees
