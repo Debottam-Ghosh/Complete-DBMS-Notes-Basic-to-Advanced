@@ -36,6 +36,7 @@ SELECT * FROM products
 ORDER BY price DESC;
 ```
 <br>
+
 **Sort students by grade (desc) and then by name (asc)**
 ```bash
 SELECT * FROM students
@@ -55,8 +56,8 @@ ORDER BY grade DESC, name ASC;
 #
 
 ### Sorting with Expressions
+**Sort employees by yearly salary (monthly_salary * 12)**
 ```bash
--- Sort employees by yearly salary (monthly_salary * 12)
 SELECT name, monthly_salary
 FROM employees
 ORDER BY monthly_salary * 12 DESC;
