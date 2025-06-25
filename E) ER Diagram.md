@@ -1,3 +1,9 @@
+#
+# Chapter 5: ER Diagram
+<br>
+<br>
+
+
 ## What is an ER Diagram?
 An ER Diagram (Entity-Relationship Diagram) is a visual representation of data that shows how entities are related in a database system. It’s widely used in database design.
 
