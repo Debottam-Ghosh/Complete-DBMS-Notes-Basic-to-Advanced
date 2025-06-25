@@ -29,6 +29,7 @@ SELECT * FROM employees
 ORDER BY name ASC;
 ```
 <br>
+
 **Sort products by price in descending order**
 ```bash
 SELECT * FROM products
