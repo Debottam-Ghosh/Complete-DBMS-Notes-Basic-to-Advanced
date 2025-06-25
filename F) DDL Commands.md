@@ -1,3 +1,9 @@
+# 
+# Chapter 7: DDL Commands
+<br>
+<br>
+
+
 ## DDL Commands in SQL (Data Definition Language)
 DDL (Data Definition Language) is a subset of SQL used to define and manage database structure or schema — such as creating, altering, and deleting tables and other database objects.
 
