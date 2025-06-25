@@ -1,3 +1,9 @@
+#
+# Chapter 6: Introduction to SQL
+<br>
+<br>
+
+
 ## What is SQL?
 SQL (Structured Query Language) is a standard language used to communicate with relational databases. It allows users to store, retrieve, manage, and manipulate data efficiently.
 <br>
