@@ -1,3 +1,9 @@
+#
+# Chapter 9: DML Commands
+<br>
+<br>
+
+
 **DML (Data Manipulation Language)** commands are used to manipulate data stored in relational database tables. These commands do not affect the structure of the table — they only affect the rows (records) inside it.
 
 <br>
