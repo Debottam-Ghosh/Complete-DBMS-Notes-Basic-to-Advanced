@@ -4,6 +4,7 @@
 <br>
 <br>
 
+# ORDER BY
 The `ORDER BY` clause is used to **sort** the result set of a query by one or more columns.
 
 <br>
@@ -67,6 +68,10 @@ FROM employees
 ORDER BY salary DESC
 LIMIT 5;
 ```
+
+---
+
+
 
 
 
