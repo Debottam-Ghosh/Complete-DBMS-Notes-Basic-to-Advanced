@@ -1,4 +1,7 @@
-## Introduction to DBMS
+#
+# Chapter 1: Introduction
+<br>
+<br>
 
 ### What is a Database
 An organized collection of related data.
