@@ -4,7 +4,7 @@
 <br>
 
 ### Table `Activities`:
-|-------------|---------|
+
 | Column Name | Type    |
 |-------------|---------
 | sell_date   | date    |
