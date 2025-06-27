@@ -78,7 +78,7 @@ DROP TABLE table_name;
 
 #### Dropping the whole Database
 ```bash
-DROP TABLE table_name;
+DROP DATABASE databasename;
 ```
 
 **NOTE:** This action is irreversible — it deletes both structure and data.
