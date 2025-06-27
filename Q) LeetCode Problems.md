@@ -4,12 +4,12 @@
 <br>
 
 ### Table `Activities`:
-+-------------+---------+
+|-------------|---------|
 | Column Name | Type    |
-+-------------+---------+
+|-------------|---------
 | sell_date   | date    |
 | product     | varchar |
-+-------------+---------+
+
 ### Description:
 There is no primary key (column with unique values) for this table. It may contain duplicates.
 Each row of this table contains the product name and the date it was sold in a market.
