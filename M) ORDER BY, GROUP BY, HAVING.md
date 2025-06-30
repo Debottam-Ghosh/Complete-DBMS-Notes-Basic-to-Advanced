@@ -69,6 +69,22 @@ FROM employees
 ORDER BY salary DESC
 LIMIT 5;
 ```
+<br>
+
+We Can Pass Two Values to LIMIT in SQL to get records between a certain range:
+```bash
+SELECT name, salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 2,3;
+```
+This returns the 3rd, 4th, and 5th highest salaries from the employees table.
+<br>
+
+**Basic Syntax:**
+`LIMIT m`: Returns first `m` rows from the top
+`LIMIT m, n`: Skips the first `m` rows and then returns next `n` rows after skipping 
+
 
 ---
 
