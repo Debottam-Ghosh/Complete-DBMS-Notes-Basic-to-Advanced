@@ -82,8 +82,8 @@ This returns the 3rd, 4th, and 5th highest salaries from the employees table.
 <br>
 
 **Basic Syntax:**
-`LIMIT m`: Returns first `m` rows from the top
-`LIMIT m, n`: Skips the first `m` rows and then returns next `n` rows after skipping 
+<br>`LIMIT m`: Returns first `m` rows from the top
+<br>`LIMIT m, n`: Skips the first `m` rows and then returns next `n` rows after skipping 
 
 
 ---
